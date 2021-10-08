@@ -7,6 +7,10 @@ Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) princip
 ### 1.4.0
 - Shopware 5 compatibility
 
+### 1.3.1
+- [Hydrate Bug fixed](https://github.com/vienthuong/shopware-php-sdk/issues/10)
+- Update Latest DAL Classes
+
 ### 1.3.0
 - PHP 8 compatibility
 
