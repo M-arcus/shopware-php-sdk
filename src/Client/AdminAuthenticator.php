@@ -53,7 +53,7 @@ class AdminAuthenticator
         try {
             $response = $this->httpClient->post($this->getFullUrl(self::OAUTH_TOKEN_ENDPOINT), [
                 'headers' => self::$headers,
-                'form_params' => $formParams
+                'body' => $formParams
             ])->getBody()->getContents();
         } catch (BadResponseException $exception) {
             throw new AuthorizationFailedException(
